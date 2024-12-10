@@ -1,44 +1,8 @@
-
 import 'package:flutter/material.dart';
-import 'package:task1/models/character_model.dart';
+import 'package:task1/list.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  final List<CharacterModel> characters = const [
-    CharacterModel(color: Color(0xff4cb050), character: 'a'),
-    CharacterModel(color: Color(0xff2196f3), character: 'b'),
-    CharacterModel(color: Color(0xffaa312b), character: 'c'),
-    CharacterModel(color: Color(0xffff9702), character: 'd'),
-    CharacterModel(color: Color(0xff9c27b0), character: 'e'),
-    CharacterModel(color: Color(0xfffbc02d), character: 'f'),
-    CharacterModel(color: Color(0xff4caf50), character: 'g'),
-    CharacterModel(color: Color(0xff00bcd4), character: 'h'),
-    CharacterModel(color: Color(0xff3f51b5), character: 'i'),
-    CharacterModel(color: Color(0xffff5722), character: 'j'),
-    CharacterModel(color: Color(0xffcddc39), character: 'k'),
-    CharacterModel(color: Color(0xff8bc34a), character: 'l'),
-    CharacterModel(color: Color(0xffe91e63), character: 'm'),
-    CharacterModel(color: Color(0xff795548), character: 'n'),
-    CharacterModel(color: Color(0xff9e9e9e), character: 'o'),
-    CharacterModel(color: Color(0xff607d8b), character: 'p'),
-    CharacterModel(color: Color(0xff00bfa5), character: 'q'),
-    CharacterModel(color: Color(0xff673ab7), character: 'r'),
-    CharacterModel(color: Color(0xff8bc34a), character: 's'),
-    CharacterModel(color: Color(0xff455a64), character: 't'),
-    CharacterModel(color: Color(0xff2196f3), character: 'u'),
-    CharacterModel(color: Color(0xffff9800), character: 'v'),
-    CharacterModel(color: Color(0xffe040fb), character: 'w'),
-    CharacterModel(color: Color(0xff03a9f4), character: 'x'),
-    CharacterModel(color: Color(0xffcddc39), character: 'y'),
-    CharacterModel(color: Color(0xfffdd835), character: 'z'),
-    CharacterModel(color: Color(0xffff5722), character: '0'),
-    CharacterModel(color: Color(0xff76ff03), character: '1'),
-    CharacterModel(color: Color(0xff3d5afe), character: '2'),
-    CharacterModel(color: Color(0xffff7043), character: '3'),
-    CharacterModel(color: Color(0xfff06292), character: '4'),
-    CharacterModel(color: Color(0xffa5d6a7), character: '5'),
-  ];
 
   @override
   Widget build(BuildContext context) {
